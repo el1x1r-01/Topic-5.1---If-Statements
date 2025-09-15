@@ -168,7 +168,7 @@
 
             if (freezingTemp == 0)
             {
-                Console.WriteLine("0 degrees celcius is correct!");
+                Console.WriteLine("0 degrees celsius is correct!");
             }
 
             if (freezingTemp == 32)
@@ -181,10 +181,10 @@
                 Console.WriteLine("273.2 degrees kelvin is correct!");
             }
 
-            else
+            else //needs to be updated
             {
                 Console.WriteLine("Incorrect! The accepted answers would have been: " +
-                    "0 degrees celcius, 32 degrees fahrenheit, or 273.2 degrees kelvin.");
+                    "0 degrees celius, 32 degrees fahrenheit, or 273.2 degrees kelvin.");
             }
 
             Console.ReadLine();
